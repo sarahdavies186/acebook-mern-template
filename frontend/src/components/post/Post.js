@@ -14,7 +14,7 @@ const Post = ({ post }) => {
   const date = moment(`${post.createdAt}`).format("MMMM Do YYYY, h:mm:ss a");
   // console.log(date)
   const [comment, setComment] = useState("");
-  
+  const [showComments, setShowComments] = useState(false);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -41,6 +41,10 @@ const Post = ({ post }) => {
   const handleCommentChange = (event) => {
     setComment(event.target.value);
   };
+
+  const handleShowComments = () => {
+    setShowComments(!showComments);
+  }; 
 
 
   const [likes, setLikes] = useState(post.likes);
@@ -101,9 +105,12 @@ const Post = ({ post }) => {
             </Col>
           </Row>
         </Form>
-        
-      </div> 
         <div>
+          <Button variant="secondary" onClick={handleShowComments}>
+            {showComments ? "Hide Comments" : "Show Comments"}
+          </Button>
+        </div>
+        {showComments && (<div id="comment-view">
           {post.comments && post.comments.length > 0 && (
             <span>
              {post.comments.map((comment) => {
@@ -112,7 +119,8 @@ const Post = ({ post }) => {
               })}
             </span>
           )}
-        </div>
+        </div>)}
+        </div> 
         
         
         
