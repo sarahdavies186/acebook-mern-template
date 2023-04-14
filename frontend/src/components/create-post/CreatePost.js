@@ -47,7 +47,7 @@ const CreatePost = ({ handleNewPost }) => {
   return (
     <Form onSubmit={handleSubmit}>
       <Row className="justify-content-md-center">
-        <Col md={6}>
+        <Col md={12}>
           <Form.Group
             className="mb-3"
             // controlId="exampleForm.ControlTextarea1"
@@ -61,6 +61,7 @@ const CreatePost = ({ handleNewPost }) => {
               rows={3}
               placeholder="Say what's on your mind today..."
               onChange={handlePostChange}
+              required
             />
           </Form.Group>
           <Form.Group className="mb-3">
@@ -75,9 +76,9 @@ const CreatePost = ({ handleNewPost }) => {
         </Col>
       </Row>
       <Row className="justify-content-md-center">
-        <Col md={6}>
+        <Col md={12}>
           <Button variant="primary" type="submit" id="submit">
-            Submit
+            Post
           </Button>
         </Col>
       </Row>
