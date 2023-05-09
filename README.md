@@ -56,9 +56,9 @@ Here's an overview of the technologies used to build this application.
   ; npm start
   ```
 
-Brpwse to `http://localhost:3000/signup` to create a new user.
+Browse to [http://localhost:3000/signup](http://localhost:3000/signup) to create a new user.
 
-Then, after signing up, you should be able to log in by going to `http://localhost:3000/login`.
+Then, after signing up, you should be able to log in by going to [http://localhost:3000/login](http://localhost:3000/login).
 
 ### Testing
 
