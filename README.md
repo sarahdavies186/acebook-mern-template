@@ -105,15 +105,6 @@ Then, after signing up, you should be able to log in by going to `http://localho
   ; JWT_SECRET=SUPER_SECRET npm run test
   ```
 
-## MongoDB Connection Errors?
-
-Some people occasionally experience MongoDB connection errors when running the tests or trying to use the application. Here are some tips which might help resolve such issues.
-
-- Check that MongoDB is installed using `mongo --version`
-- Check that it's running using `brew services list`
-
-If you have issues that are not resolved by these tips, please reach out to a coach and, once the issue is resolved, we can add a new tip!
-
 ## Contributors 
 
 This was a group project, created by: 
