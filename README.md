@@ -20,41 +20,41 @@ Here's an overview of the technologies used to build this application.
 ### Set up your project
 
 1. Clone this repo 
-    ```
-   git clone https://github.com/sarahdavies186/acebook-water.git
-   ```
+```
+git clone https://github.com/sarahdavies186/acebook-water.git
+```
 
 2. Install NPM dependencies
-   ```
-   ; cd api
-   ; npm install
-   ; cd ../frontend
-   ; npm install
-   ```
+```
+; cd api
+; npm install
+; cd ../frontend
+; npm install
+```
 3. Install MongoDB
-   ```
-   brew tap mongodb/brew
-   brew install mongodb-community@5.0
-   ```
+```
+brew tap mongodb/brew
+brew install mongodb-community@5.0
+```
 4. Start MongoDB
-   ```
-   brew services start mongodb-community@5.0
-   ```
+```
+brew services start mongodb-community@5.0
+```
 ### Start
 
 1. Start the server
-   ```
-   ; cd api
-   ; JWT_SECRET=SUPER_SECRET npm start
-   ```
+```
+; cd api
+; JWT_SECRET=SUPER_SECRET npm start
+```
 2. Start the front end
 
   In a new terminal session...
-
-  ```
-  ; cd frontend
-  ; npm start
-  ```
+  
+ ```
+ ; cd frontend
+ ; npm start
+ ```
 
 Browse to [http://localhost:3000/signup](http://localhost:3000/signup) to create a new user.
 
