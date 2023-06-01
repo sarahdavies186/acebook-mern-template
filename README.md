@@ -104,6 +104,11 @@ Then, after signing up, you should be able to log in by going to [http://localho
   ; cd frontend
   ; JWT_SECRET=SUPER_SECRET npm run test
   ```
+## Demo
+
+<img width="1413" alt="Screenshot 2023-06-01 at 13 52 52" src="https://github.com/sarahdavies186/acebook-water/assets/99144401/604db8e3-a783-4ad6-90ce-91a55180df94"> <br/>
+<br/><img width="1420" alt="Screenshot 2023-06-01 at 13 56 03" src="https://github.com/sarahdavies186/acebook-water/assets/99144401/44a3b393-091e-4a7b-814c-cc65455f225e"> <br/>
+<br/><img width="1397" alt="Screenshot 2023-06-01 at 13 56 34" src="https://github.com/sarahdavies186/acebook-water/assets/99144401/5a6f1174-fa4d-4805-9aa5-933c0dbcf252">
 
 ## Contributors 
 
@@ -116,4 +121,9 @@ This was a group project, created by:
 
 
 ---
+
+
+
+
+
 
